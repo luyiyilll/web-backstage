@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:#fff;
+	}
+#container{
+	background:#fff;
+	margin:0 auto;
+	width:1600px;
+	height:850px;
+	border:1px solid #fff;
+	}
+#content{
+	background:#fff;
+	margin-top:200px;
+	width:1600px;
+	height:500px;
+	border:1px solid #fff;
+	}
+/*#logincontent{
+	border:1px solid #F00;
+	width:1600px;
+	height:310px;
+	margin-top:100px;
+
+	}*/
+.loginpic{
+	/*border:1px solid #000;*/
+	height:380px;
+	width:850px;
+	margin-top:40px;
+	margin-left:100px;
+	display:block;
+	float:left;
+	background:url(../images/loginbg1.jpg) bottom right no-repeat;
+	background-size:100% 100%;
+	}
+.login{
+	border:1px solid #ccc;
+	box-shadow:1px 1px 10px  rgba(204,102,102,0.3);
+	width:400px;
+	height:380px;
+	margin-top:40px;
+	margin-right:200px;
+	display:inline-block;
+	float:right;
+	}
+.title{
+	width:400px;
+	height:50px;
+	margin-top:40px;
+	font-family:"Comic Sans MS", cursive;
+	color:#c66;
+	font-size:33px;
+	text-align:center}
+.user{
+	font-size:23px;
+	font-family:"Comic Sans MS", cursive;
+	margin-top:15px;
+	margin-left:20px;
+	}
+.input{
+	width:260px;
+	height:40px;
+	background:rgba(143,176,188,0.1);
+	}
+.sub{
+	font-size:23px;
+	font-family:"Comic Sans MS", cursive;
+	width:320px;
+	height:40px;
+	background:rgb(151,187,211);
+	margin-top:10px;
+	margin-left:25px;
+	text-align:center;
+	border:none;
+	border-radius:5px;
+	font-weight:bold;
+	}
+.sub:hover{
+	background:rgba(98,156,178,0.5);
+	transform:scale(1.1,1.1);	
+	color:#fff;
+	}
+.sub a{
+	text-decoration:none;
+	font-weight:bold;
+	vertical-align:middle;
+	color:#000;
+	}
+.sub a:hover{
+	color:#fff;
+	}

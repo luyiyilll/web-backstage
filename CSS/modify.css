@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:rgb(151,187,211);
+	}
+#container{
+	background:rgb(151,187,211);
+	margin:0 auto;
+	width:1600px;
+	height:1000px;
+	border:1px solid rgb(151,187,211);
+	}
+
+#content{
+	background:#fff;
+	width:1600px;
+	height:1000px;
+	border:1px solid #ccc;
+	}
+/*#logincontent{
+	border:1px solid #F00;
+	width:1600px;
+	height:310px;
+	margin-top:100px;
+
+	}*/
+.banner{
+	border:1px solid #ccc;
+	width:1400px;
+	height:80px;
+	padding:20px 100px;
+	}
+#searh{
+	border:1px solid #000;
+	width:720px;
+	height:60px;
+	}
+.input{
+	background:#fff;
+	font-size:20px;
+	font-weight:bold;
+	color:#FF6;
+	width:400px;
+	height:50px;
+	display:inline-block;
+	float:right;
+	}
+.inputa{
+    width: 280px;
+    height: 50px;
+    border-radius:5px;
+    border: 1px solid #999999;
+    box-shadow: 1px 1px 3px #cccccc;
+    padding-left: 15px;
+    margin-right: 15px;
+	display:inline-block;
+	float:right;
+}
+.inputsearch{
+	background:#fff;
+	font-size:20px;
+	font-weight:bold;
+	color:#c66;
+	width:50px;
+	height:50px;
+	border:none;
+	}
+#nav{
+	border:1px solid #000;
+	display:inline-block;
+	float:right;
+	width:400px;
+	height:50px;
+	position: relative;
+	top: -55px;
+	left: 0px;
+	}
+.li{
+	border:1px solid #000;
+	width:100px;
+	height:50px;
+	font-size:23px;
+	display:inline-block;
+	float:right;
+	text-align:center;
+	}
+.li a{
+	text-decoration:none;
+	color:#c66;
+	}
+.loginpic{
+	/*border:1px solid #000;*/
+	height:350px;
+	width:750px;
+	margin-top:140px;
+	margin-left:100px;
+	display:block;
+	float:left;
+	background:url(../images/loginbg1.jpg) bottom right no-repeat;
+	background-size:100% 100%;
+	}
+.login{
+	border:1px solid #ccc;
+	box-shadow:1px 1px 10px  rgba(204,102,102,0.3);
+	width:600px;
+	height:620px;
+	margin-right:100px;
+	margin-top:40px;
+	display:inline-block;
+	float:right;
+	}
+.title{
+	width:400px;
+	height:50px;
+	margin-top:40px;
+	font-family:"Comic Sans MS", cursive;
+	color:#c66;
+	font-size:33px;
+	text-align:center}
+.user{
+	font-size:23px;
+	font-family:"Comic Sans MS", cursive;
+	margin-top:15px;
+	margin-left:60px;
+	}
+.input{
+	width:260px;
+	height:40px;
+	background:rgba(143,176,188,0.1);
+	}
+#webpage1{
+	width:150px;
+	height:20px;
+	/*border:1px solid #000;*/
+	position:relative;
+	top:-30Px;
+	left:380px;
+	font-size:16px;
+	color:#F00;
+	}
+#webpage2{
+	width:150px;
+	height:20px;
+	/*border:1px solid #000;*/
+	position:relative;
+	top:-30Px;
+	left:380px;
+	font-size:16px;
+	color:#F00;
+	}
+#webpage3{
+	width:150px;
+	height:20px;
+	/*border:1px solid #000;*/
+	position:relative;
+	top:-30Px;
+	left:380px;
+	font-size:16px;
+	color:#F00;
+	}
+#webpage4{
+	width:150px;
+	height:20px;
+	/*border:1px solid #000;*/
+	position:relative;
+	top:-30Px;
+	left:380px;
+	font-size:16px;
+	color:#F00;
+	}
+#webpage5{
+	width:150px;
+	height:20px;
+	/*border:1px solid #000;*/
+	position:relative;
+	top:-30Px;
+	left:440px;
+	font-size:18px;
+	color:#F00;
+	}
+.sub{
+	font-size:23px;
+	font-family:"Comic Sans MS", cursive;
+	width:330px;
+	height:40px;
+	background:rgb(151,187,211);
+	margin-top:10px;
+	margin-left:95px;
+	text-align:center;
+	border:none;
+	border-radius:5px;
+	font-weight:bold;
+	}
+.sub:hover{
+	background:rgba(98,156,178,0.5);
+	transform:scale(1.1,1.1);	
+	color:#fff;
+	}
+.sub a{
+	text-decoration:none;
+	font-weight:bold;
+	vertical-align:middle;
+	color:#000;
+	}
+.sub a:hover{
+	color:#fff;
+	}
+word{
+	color:transparent;}
